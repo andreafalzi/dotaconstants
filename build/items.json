@@ -2458,7 +2458,7 @@
   },
   "urn_of_shadows": {
     "hint": [
-      "Active: Soul Release Provides 30 health regeneration when cast on allies, and deals 25 damage per second when cast on enemies. Lasts 8 seconds.  Gains charges every time an enemy hero dies within 1400 units.  Only the closest Urn to the dying hero will gain a charge.Cast Range: 950"
+      "Active: Soul Release Provides 30 health regeneration when cast on allies, and deals 25 damage per second when cast on enemies. Lasts 8 seconds.  Gains charges every time an enemy hero dies within 1400 units.  Only the closest Urn to the dying hero will gain a charge.Cast Range: 750"
     ],
     "id": 92,
     "img": "/apps/dota2/images/dota_react/items/urn_of_shadows.png?t=1593393829403",
@@ -4188,7 +4188,7 @@
   },
   "spirit_vessel": {
     "hint": [
-      "Active: Soul Release When used against enemies, it reduces health by 4% of current health per second, and reduces HP regeneration, healing, lifesteal and spell lifesteal by 45%. Deals 35 damage per second. When used on allies, it provides 40 health regeneration per second. Lasts 8 seconds.  Gains charges every time an enemy hero dies within 1400 units.  Only the closest Spirit Vessel to the dying hero will gain a charge.Cast Range: 950"
+      "Active: Soul Release When used against enemies, it reduces health by 4% of current health per second, and reduces HP regeneration, healing, lifesteal and spell lifesteal by 45%. Deals 35 damage per second. When used on allies, it provides 40 health regeneration per second. Lasts 8 seconds.  Gains charges every time an enemy hero dies within 1400 units.  Only the closest Spirit Vessel to the dying hero will gain a charge.Cast Range: 750"
     ],
     "id": 267,
     "img": "/apps/dota2/images/dota_react/items/spirit_vessel.png?t=1593393829403",
@@ -5598,7 +5598,7 @@
     "id": 177,
     "img": "/apps/dota2/images/dota_react/items/recipe.png?t=1593393829403",
     "dname": "Soul Ring Recipe",
-    "cost": 245,
+    "cost": 400,
     "notes": "",
     "attrib": [],
     "mc": false,
@@ -5616,7 +5616,7 @@
     "img": "/apps/dota2/images/dota_react/items/soul_ring.png?t=1593393829403",
     "dname": "Soul Ring",
     "qual": "common",
-    "cost": 700,
+    "cost": 855,
     "notes": "If this mana is not used before the duration ends, the extra mana is lost.",
     "attrib": [],
     "mc": false,
@@ -5899,7 +5899,7 @@
   },
   "boots_of_bearing": {
     "hint": [
-      "Active: Endurance Consumes a charge and gives +%bonus_attack_speed_pct% attack speed, +%bonus_movement_speed_pct%%%. Movement Speed to nearby allies for %duration% seconds For the first %bonus_ms_duration% seconds allies are immune to slows.Starts with 8 Charges. Gains 1 Charge every 3 minutes. Radius: %radius%  ",
+      "Active: Endurance Consumes a charge and gives +%bonus_attack_speed_pct% attack speed, +%bonus_movement_speed_pct%%%. Movement Speed to nearby allies for %duration% seconds. For the first %bonus_ms_duration% seconds allies are immune to slows.Starts with 8 Charges. Gains 1 Charge every 3 minutes. Radius: %radius%  ",
       "Passive: Swiftness AuraGrants %aura_movement_speed% movement speed to allies.  Radius: %radius%"
     ],
     "id": 931,
@@ -7590,7 +7590,8 @@
     "lore": "The surprisingly dangerous creation of an apprentice sorcerer with a strange fondness for brooms.",
     "components": null,
     "created": false,
-    "charges": false
+    "charges": false,
+    "tier": 1
   },
   "trusty_shovel": {
     "hint": [
